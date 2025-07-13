@@ -26,7 +26,7 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Welcome to Akshay's Universe 🌌
+          Welcome to Akshay Universe 🌌
         </motion.h1>
 
         <motion.p
