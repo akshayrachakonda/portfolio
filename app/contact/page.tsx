@@ -1,13 +1,21 @@
 'use client';
+
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import StarBackground from '@/components/StarBackground';
+
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
 
+  const handleSubmit = () => {
+    // Formspree handles the actual request, so we just wait for redirection or use AJAX for better UX.
+    setSubmitted(true);
+  };
+
   return (
     <main className="min-h-screen bg-black text-white px-6 py-16 flex flex-col items-center">
-        <StarBackground />
+      <StarBackground />
+
       <motion.h1
         className="text-4xl md:text-5xl font-bold text-center mb-6 mt-6"
         initial={{ opacity: 0, y: -20 }}
@@ -19,9 +27,9 @@ export default function ContactPage() {
 
       {!submitted ? (
         <motion.form
-          action="https://formspree.io/f/xjkobyqv" // 🔁 Replace with your real Formspree endpoint
+          action="https://formspree.io/f/xjkobyqv"
           method="POST"
-          onSubmit={() => setSubmitted(true)}
+          onSubmit={handleSubmit}
           className="w-full max-w-xl space-y-5 bg-purple-800/10 border border-purple-600 p-8 rounded-xl shadow-xl backdrop-blur-sm"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
