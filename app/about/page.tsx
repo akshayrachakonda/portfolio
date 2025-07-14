@@ -43,7 +43,7 @@ export default function AboutPage() {
               'Code Explorer at EventAura 🪐',
               2000,
               'Student Mentor ar Reliance Foundation',
-              '2000'
+              2000,
             ]}
             wrapper="span"
             speed={40}

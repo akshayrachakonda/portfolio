@@ -16,12 +16,20 @@ export default function ProjectsPage() {
           description="A full-stack course platform for students and admins to manage enrollments, using React, Express, MongoDB, and Node.js."
           stack={['React', 'Express', 'MongoDB', 'Node.js']}
           liveLink="https://course-enrollment-one.vercel.app/"
+          repoLink ="https://github.com/akshayrachakonda/course_enrollment"
         />
         <ProjectCard
           title="Mill Cart"
           description="An e-commerce portal for B2B bulk purchase from factories, connecting kirana stores and wholesalers directly to suppliers."
           stack={['React', 'Express', 'MongoDB', 'Node.js']}
           repoLink="https://github.com/akshayrachakonda/mill-cart"
+        />
+        <ProjectCard
+          title="Portfolio"
+          description="Galaxy based portfoiol."
+          stack={['Type Script', 'Material UI', 'Next Js', 'Node.js']}
+          liveLink="https://akshay-rachakonda-portfolio.vercel.app/"
+          repoLink ="https://github.com/akshayrachakonda/portfolio"
         />
       </div>
     </main>
