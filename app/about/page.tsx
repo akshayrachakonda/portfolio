@@ -36,12 +36,14 @@ export default function AboutPage() {
 
           <TypeAnimation
             sequence={[
-              'Frontend Developer 🚀',
+              'Full Stack Developer 🚀',
               2000,
               'UI/UX Enthusiast 🌌',
               2000,
               'Code Explorer at EventAura 🪐',
               2000,
+              'Student Mentor ar Reliance Foundation',
+              '2000'
             ]}
             wrapper="span"
             speed={40}
