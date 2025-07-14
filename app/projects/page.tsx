@@ -26,10 +26,17 @@ export default function ProjectsPage() {
         />
         <ProjectCard
           title="Portfolio"
-          description="Galaxy based portfoiol."
+          description="Galaxy based portfolio."
           stack={['Type Script', 'Material UI', 'Next Js', 'Node.js']}
           liveLink="https://akshay-rachakonda-portfolio.vercel.app/"
           repoLink ="https://github.com/akshayrachakonda/portfolio"
+        />
+        <ProjectCard
+          title="HackerRank Automation Bot"
+          description="Built an automation script using Node.js and Puppeteer to log into HackerRank and navigate coding challenges."
+          stack={['Java Script', 'Puppeteer']}
+          // liveLink="https://akshay-rachakonda-portfolio.vercel.app/"
+          // repoLink ="https://github.com/akshayrachakonda/portfolio"
         />
       </div>
     </main>
