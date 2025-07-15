@@ -26,8 +26,8 @@ export default function ResumePage() {
       </motion.p>
 
       <motion.a
-        href="/assets/Resume. (10).pdf"
-        download="Akshay_Rachakonda_Resume"
+        href="/assets/akshay-resume.pdf"
+        download="Akshay-Rachakonda-Resume"
         target="_blank" // ← ensures mobile opens it
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1, boxShadow: '0 0 20px #8b5cf6' }}
